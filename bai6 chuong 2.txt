@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+	#box1{
+	width:1300px;
+	background-color:red;
+	height:70px;
+	float:left;
+	margin:20px;
+	}
+	#box2{
+	width:1300px;
+	background-color:blue;
+	height:100px;
+	float:left;
+	margin:20px;
+	}
+	#box3{
+	width:400px;
+	background-color:yellow;
+	height:100px;
+	float:left;
+	margin:22px;
+	
+	}
+	#box4{
+	width:400px;
+	background-color:black;
+	height:100px;
+	float:left;
+	margin:22px;
+	
+	}
+	#box5{
+	width:400px;
+	background-color:silver;
+	height:100px;
+	float:left;
+	margin:22px;
+
+	}
+	#box6{
+	width:1300px;
+	background-color:pink;
+	height:70px;
+	float:left;
+	margin:20px;
+	}
+  </style>
+</head>
+<body>
+	<div id="box1"></div>
+	<div id="box2"></div>
+	<div id="box3"></div>
+	<div id="box4"></div>
+	<div id="box5"></div>
+	<div id="box6"></div>
+
+</body>
+</html>
