@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<meta charset="utf-8">
+	<style>
+	*{
+		padding:0;
+		margin:0;
+	}
+	body{
+		padding:30px;
+	}
+	nav, h1{
+		float:left;
+		margin:10px;
+		width:100%
+		
+	}
+	li{
+		list-style:none;
+	}
+	.vinh li{
+		display:block;
+		width:100px;
+		border:1px solid;
+		background:silver;
+		float:left;
+	
+	}
+	.vinh a{
+		text-decoration:none;
+		background:#aaa;
+		display:block;
+		text-align:center;
+		height:100%;
+	}
+	.vinh a:hover{
+		background:green;
+		color:white;
+	}
+	.vinh_2 li{
+		width:150px;
+		border:1px solid;
+		background:silver;
+	}
+	.vinh_2 a{
+		text-decoration:none;
+		background:#aaa;
+	
+		height:100%;
+		display:block;
+	}
+	.vinh_2 a:hover{
+		background:green;
+		color:white;
+	}
+	.vinh_3 li{
+		width:120px;
+		border:1px solid;
+		float:left;
+		height:100%;
+	}
+	.vinh_3 a{
+		text-decoration:none;
+		background:#aaa;
+		display:block;
+	
+	}
+	.vinh_3 a:hover{
+		background:green;
+		color:white;
+	}
+	.vinh_3 li ul{
+		display:none;
+	}
+	.vinh_3 li:hover ul{
+		display:block;
+	}
+	.vinh_4 li{
+		width:150px;
+		border:1px solid;
+		position:relative;
+	}
+	.vinh_4 a{
+		background:silver;
+		text-decoration:none;
+		display:block;
+	}
+	.vinh_4 a:hover{
+		background:green;
+		color:white;	
+	}
+	.vinh_4 li ul{
+		display:none;
+		position:absolute;
+		left:150px;
+		top:0;
+	}
+	.vinh_4 li:hover ul{
+		display:block;
+	}
+
+
+	
+	</style>
+</head>
+<body>
+	<h1>Horizontal navigation bar</h1>
+	<nav class="vinh">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">NEWS</a></li>
+			<li><a href="#">CONTACT</a></li>
+			<li><a href="#">ABOUT</a></li>
+		</ul>
+	</nav>
+		
+	<h1>Vertical navigation bar</h1>
+	<nav class="vinh_2">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">NEWS</a></li>
+			<li><a href="#">CONTACT</a></li>
+			<li><a href="#">ABOUT</a></li>
+		</ul>
+	</nav>
+	<h1>Dropdown navigation bar</h1>
+	<nav class="vinh_3">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">NEWS</a>
+				<ul>
+					<li><a href="#">ITEM1</a></li>
+					<li><a href="#">ITEM2</a></li>
+					<li><a href="#">ITEM3</a></li>
+					<li><a href="#">ITEM4</a></li>
+				</ul>
+				</li>
+			<li><a href="#">CONTACT</a></li>
+			<li><a href="#">ABOUT</a></li>
+		</ul>
+	</nav>
+	<h1>Vertical navigation bar</h1>
+	<nav class="vinh_4">
+		<ul>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#">NEWS</a>
+				<ul>
+					<li><a href="#">ITEM1</a></li>
+					<li><a href="#">ITEM2</a></li>
+					<li><a href="#">ITEM3</a></li>
+					<li><a href="#">ITEM4</a></li>
+				</ul>
+				</li>
+			<li><a href="#">CONTACT</a></li>
+			<li><a href="#">ABOUT</a></li>
+		</ul>
+	</nav>
+	
+</body>
+</html>
